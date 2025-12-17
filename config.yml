@@ -1,0 +1,40 @@
+
+security:
+
+  useCommandLineTool: false  # be aware that command the ai line could do anything
+                             # on the command line, at you own risk !
+
+  limitFileAccess:    true   # limit file access to the /goals folder
+
+agent:
+
+  maxRetries:           3
+  clarificationEnabled: true
+  improvementEnabled:   true
+
+llms:
+
+  openai:
+
+    type:   openai
+    apiKey: YOUR_API_KEY_HERE
+    model:  gpt-4
+
+  anthropic:
+
+    type:   anthropic
+    apiKey: YOUR_API_KEY_HERE
+    model:  claude-2
+
+  gemini:
+
+    type:   gemini
+    apiKey: "API_KEY_HERE"
+    model:  gemini-pro
+
+tools:
+
+  google_search:
+
+    apiKey:           YOUR_GOOGLE_API_KEY
+    search_engine_id: YOUR_SEARCH_ENGINE_ID
