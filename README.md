@@ -2,6 +2,7 @@
 
 DEPRECATED PHP agentic system
 
+No license, no warrenty of any kind. At your own risk!
 
 ## File structure
 
